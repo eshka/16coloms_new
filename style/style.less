@@ -1,0 +1,124 @@
+@columsMargin: 5px;
+@columsWidht: 63px;
+
+*                        {padding: 0; margin: 0;}
+
+body                     { background: gray; margin: 0 auto; width: 1168px; outline: 1px solid green;}
+h2, p                    { text-align: center; }
+div                      { outline: 1px solid green; margin-bottom: 10px;}
+.container_16            { min-width:1168px; margin:0 auto; overflow:hidden; width: 1168px;}
+
+.grid_1,  .grid_2,
+.grid_3,  .grid_4,
+.grid_5,  .grid_6,
+.grid_7,  .grid_8,
+.grid_9,  .grid_10,
+.grid_11, .grid_12,
+.grid_13, .grid_14,
+.grid_15, .grid_16       { display: inline; float: left; margin-left: @columsMargin; margin-right: @columsMargin; }
+
+
+.grid_1    { width: calc(@columsWidht * 1  + (0 + 0  ) * @columsMargin); }
+.grid_2    { width: calc(@columsWidht * 2  + (1 + 1  ) * @columsMargin); }
+.grid_3    { width: calc(@columsWidht * 3  + (1 + 3  ) * @columsMargin); }
+.grid_4    { width: calc(@columsWidht * 4  + (1 + 5  ) * @columsMargin); }
+.grid_5    { width: calc(@columsWidht * 5  + (1 + 7  ) * @columsMargin); }
+.grid_6    { width: calc(@columsWidht * 6  + (1 + 9  ) * @columsMargin); }
+.grid_7    { width: calc(@columsWidht * 7  + (1 + 11 ) * @columsMargin); }
+.grid_8    { width: calc(@columsWidht * 8  + (1 + 13 ) * @columsMargin); }
+.grid_9    { width: calc(@columsWidht * 9  + (1 + 15 ) * @columsMargin); }
+.grid_10   { width: calc(@columsWidht * 10 + (1 + 17 ) * @columsMargin); }
+.grid_11   { width: calc(@columsWidht * 11 + (1 + 19 ) * @columsMargin); }
+.grid_12   { width: calc(@columsWidht * 12 + (1 + 21 ) * @columsMargin); }
+.grid_13   { width: calc(@columsWidht * 13 + (1 + 23 ) * @columsMargin); }
+.grid_14   { width: calc(@columsWidht * 14 + (1 + 25 ) * @columsMargin); }
+.grid_15   { width: calc(@columsWidht * 15 + (1 + 27 ) * @columsMargin); }
+.grid_16   { width: calc(@columsWidht * 16 + (1 + 29 ) * @columsMargin); }
+
+.container_16 .prefix_1  { margin-left: calc(@columsWidht * 1  + (1 + 2 ) * @columsMargin);}
+.container_16 .prefix_2  { margin-left: calc(@columsWidht * 2  + (1 + 4 ) * @columsMargin);}
+.container_16 .prefix_3  { margin-left: calc(@columsWidht * 3  + (1 + 6 ) * @columsMargin);}
+.container_16 .prefix_4  { margin-left: calc(@columsWidht * 4  + (1 + 8 ) * @columsMargin);}
+.container_16 .prefix_5  { margin-left: calc(@columsWidht * 5  + (1 + 10) * @columsMargin);}
+.container_16 .prefix_6  { margin-left: calc(@columsWidht * 6  + (1 + 12) * @columsMargin);}
+.container_16 .prefix_7  { margin-left: calc(@columsWidht * 7  + (1 + 14) * @columsMargin);}
+.container_16 .prefix_8  { margin-left: calc(@columsWidht * 8  + (1 + 16) * @columsMargin);}
+.container_16 .prefix_9  { margin-left: calc(@columsWidht * 9  + (1 + 18) * @columsMargin);}
+.container_16 .prefix_10 { margin-left: calc(@columsWidht * 10 + (1 + 20) * @columsMargin);}
+.container_16 .prefix_11 { margin-left: calc(@columsWidht * 11 + (1 + 22) * @columsMargin);}
+.container_16 .prefix_12 { margin-left: calc(@columsWidht * 12 + (1 + 24) * @columsMargin);}
+.container_16 .prefix_13 { margin-left: calc(@columsWidht * 13 + (1 + 26) * @columsMargin);}
+.container_16 .prefix_14 { margin-left: calc(@columsWidht * 14 + (1 + 28) * @columsMargin);}
+.container_16 .prefix_15 { margin-left: calc(@columsWidht * 15 + (1 + 30) * @columsMargin);}
+
+.container_16 .suffix_1  { margin-right: calc(@columsWidht * 1  + (1 + 2 ) * @columsMargin);}
+.container_16 .suffix_2  { margin-right: calc(@columsWidht * 2  + (1 + 4 ) * @columsMargin);}
+.container_16 .suffix_3  { margin-right: calc(@columsWidht * 3  + (1 + 6 ) * @columsMargin);}
+.container_16 .suffix_4  { margin-right: calc(@columsWidht * 4  + (1 + 8 ) * @columsMargin);}
+.container_16 .suffix_5  { margin-right: calc(@columsWidht * 5  + (1 + 10) * @columsMargin);}
+.container_16 .suffix_6  { margin-right: calc(@columsWidht * 6  + (1 + 12) * @columsMargin);}
+.container_16 .suffix_7  { margin-right: calc(@columsWidht * 7  + (1 + 14) * @columsMargin);}
+.container_16 .suffix_8  { margin-right: calc(@columsWidht * 8  + (1 + 16) * @columsMargin);}
+.container_16 .suffix_9  { margin-right: calc(@columsWidht * 9  + (1 + 18) * @columsMargin);}
+.container_16 .suffix_10 { margin-right: calc(@columsWidht * 10 + (1 + 20) * @columsMargin);}
+.container_16 .suffix_11 { margin-right: calc(@columsWidht * 11 + (1 + 22) * @columsMargin);}
+.container_16 .suffix_12 { margin-right: calc(@columsWidht * 12 + (1 + 24) * @columsMargin);}
+.container_16 .suffix_13 { margin-right: calc(@columsWidht * 13 + (1 + 26) * @columsMargin);}
+.container_16 .suffix_14 { margin-right: calc(@columsWidht * 14 + (1 + 28) * @columsMargin);}
+.container_16 .suffix_15 { margin-right: calc(@columsWidht * 15 + (1 + 30) * @columsMargin);}
+
+.alpha                   { margin-left: 0; }
+.omega                   { margin-right: 0; }
+
+.push_1, .pull_1,
+.push_2, .pull_2,
+.push_3, .pull_3,
+.push_4, .pull_4,
+.push_5, .pull_5,
+.push_6, .pull_6,
+.push_7, .pull_7,
+.push_8, .pull_8,
+.push_9, .pull_9,
+.push_10, .pull_10,
+.push_11, .pull_11,
+.push_12, .pull_12,
+.push_13, .pull_13,
+.push_14, .pull_14,
+.push_15, .pull_15,
+.push_16, .pull_16,      { position: relative; }
+
+.push_1                  { left: calc(@columsWidht * 1  + (1 + 2 ) * @columsMargin);}
+.push_2                  { left: calc(@columsWidht * 2  + (1 + 4 ) * @columsMargin);}
+.push_3                  { left: calc(@columsWidht * 3  + (1 + 6 ) * @columsMargin);}
+.push_4                  { left: calc(@columsWidht * 4  + (1 + 8 ) * @columsMargin);}
+.push_5                  { left: calc(@columsWidht * 5  + (1 + 10) * @columsMargin);}
+.push_6                  { left: calc(@columsWidht * 6  + (1 + 12) * @columsMargin);}
+.push_7                  { left: calc(@columsWidht * 7  + (1 + 14) * @columsMargin);}
+.push_8                  { left: calc(@columsWidht * 8  + (1 + 16) * @columsMargin);}
+.push_9                  { left: calc(@columsWidht * 9  + (1 + 18) * @columsMargin);}
+.push_10                 { left: calc(@columsWidht * 10 + (1 + 20) * @columsMargin);}
+.push_11                 { left: calc(@columsWidht * 11 + (1 + 22) * @columsMargin);}
+.push_12                 { left: calc(@columsWidht * 12 + (1 + 24) * @columsMargin);}
+.push_13                 { left: calc(@columsWidht * 13 + (1 + 26) * @columsMargin);}
+.push_14                 { left: calc(@columsWidht * 14 + (1 + 28) * @columsMargin);}
+.push_15                 { left: calc(@columsWidht * 15 + (1 + 30) * @columsMargin);}
+.push_16                 { left: calc(@columsWidht * 15 + (1 + 30) * @columsMargin);}
+
+
+.pull_1                  { left: -calc(@columsWidht * 15 + (1 + 30) * @columsMargin);}
+.pull_2                  { left: -calc(@columsWidht * 15 + (1 + 30) * @columsMargin);}
+.pull_3                  { left: -calc(@columsWidht * 15 + (1 + 30) * @columsMargin);}
+.pull_4                  { left: -calc(@columsWidht * 15 + (1 + 30) * @columsMargin);}
+.pull_5                  { left: -calc(@columsWidht * 15 + (1 + 30) * @columsMargin);}
+.pull_6                  { left: -calc(@columsWidht * 15 + (1 + 30) * @columsMargin);}
+.pull_7                  { left: -calc(@columsWidht * 15 + (1 + 30) * @columsMargin);}
+.pull_8                  { left: -calc(@columsWidht * 15 + (1 + 30) * @columsMargin);}
+.pull_9                  { left: -calc(@columsWidht * 15 + (1 + 30) * @columsMargin);}
+.pull_10                 { left: -calc(@columsWidht * 15 + (1 + 30) * @columsMargin);}
+.pull_11                 { left: -calc(@columsWidht * 15 + (1 + 30) * @columsMargin);}
+.pull_12                 { left: -calc(@columsWidht * 15 + (1 + 30) * @columsMargin);}
+.pull_13                 { left: -calc(@columsWidht * 15 + (1 + 30) * @columsMargin);}
+.pull_14                 { left: -calc(@columsWidht * 15 + (1 + 30) * @columsMargin);}
+.pull_15                 { left: -calc(@columsWidht * 15 + (1 + 30) * @columsMargin);}
+.pull_16                 { left: -calc(@columsWidht * 15 + (1 + 30) * @columsMargin);}
+
